@@ -53,11 +53,13 @@
                         writer.WriteLine($"{anagramGroup.Key}: {string.Join(", ", anagramGroup.Value)}");
                     }
                 }
+
                 else
                 {
                     Console.WriteLine($"File not found: {filePath}");
                 }
             }
+            
             else
             {
                 Console.WriteLine("Exiting program...");
